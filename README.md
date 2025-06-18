@@ -4,7 +4,7 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Face Recognition** using deep learning and real-time webcam input
 - **Voice Matching** and speech-to-text conversion
@@ -15,7 +15,7 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Category          | Technologies/Tools                                                                 |
 |-------------------|------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
 ## Authentication Flow
 
 ```text
-[1] User opens the app (GUI)  
+[1] User opens the app 
       ↓  
 [2] Face Recognition → Verified?  
       ↓  
@@ -39,4 +39,4 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
       ↓  
 [5] Lip Movements Verified (Lip Sync Match)?  
       ↓  
-[6] Authentication Success ✅ / Failure ❌  
+[6] Authentication Success / Denied 
