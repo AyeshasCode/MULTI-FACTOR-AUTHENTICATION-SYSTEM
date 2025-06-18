@@ -1,31 +1,44 @@
-# MULTI-FACTOR-AUTHENTICATION-SYSTEM
-<br>
- The Multi Factor Authentication System provides secure and reliable user authentication
-by combining face recognition, voice analysis, and real-time liveness detection.
-<br>
- It uses AI-powered biometric verification to prevent spoofing attempts and ensure only
-authorized users gain access.
-<br>
- The system generates random text prompts during authentication, ensuring that the
-user is actively present and responding in real time.
-<br>
- It includes lip-sync verification as an extra security layer to further enhance protection.
-<br>
- This advanced authentication system ensures high security, usability, and adaptability,
-making it a powerful solution for secure access control.
-<br>
-<br>
-# TECHNICAL APPROACH
-<br>
-# Programming Languages : Python
-<br>
-# Frameworks and Libraries : OpenCV , face-recognition , Whisper ,fuzzywuzzy ,noise
-reduce ,MediaPipe , sounddevice and soundfile
-<br>
-# PyQt : For creating & designing a graphical user interface (UI) of the application.
-Storage : Face encodings and voice samples are stored in local folders, planning to
-migrate to cloud-based storage for scalability and security.
-<br>
-# This System leverages AI for automation, ML for feature extraction and similarity
-matching, and DL for advanced face, voice, and lip-sync verification, ensuring secure
-and accurate user authentication.
+# Multi-Factor Authentication System
+
+A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines **Face Recognition**, **Voice Analysis**, **Liveness Detection**, and **Lip Sync Verification** to provide high-security, real-time, and user-friendly authentication.
+
+---
+
+## 🚀 Features
+
+- **Face Recognition** using deep learning and real-time webcam input
+- **Voice Matching** and speech-to-text conversion
+- **Liveness Detection** with randomized text prompts and response validation
+- **Lip Sync Verification** to ensure the speaker matches the lip movement
+- **AI-powered biometric security** with anti-spoofing
+- **Local data storage** (Cloud integration planned)
+- **PyQt5 GUI** for an intuitive user interface
+
+---
+
+## 🛠️ Technical Stack
+
+| Category          | Technologies/Tools                                                                 |
+|-------------------|------------------------------------------------------------------------------------|
+| **Language**       | Python                                                                             |
+| **Libraries**      | `OpenCV`, `face-recognition`, `whisper`, `fuzzywuzzy`, `noisereduce`, `mediapipe`, `sounddevice`, `soundfile` |
+| **GUI**            | PyQt5                                                                              |
+| **Storage**        | Local directory-based storage (planning migration to cloud)                       |
+| **AI/ML/DL**       | Used for face encoding, voice embedding, and dynamic lip movement verification    |
+
+---
+
+## Authentication Flow
+
+```text
+[1] User opens the app (GUI)  
+      ↓  
+[2] Face Recognition → Verified?  
+      ↓  
+[3] Random Text Prompt Generated  
+      ↓  
+[4] User Speaks Prompt → Voice Verified?  
+      ↓  
+[5] Lip Movements Verified (Lip Sync Match)?  
+      ↓  
+[6] Authentication Success ✅ / Failure ❌  
