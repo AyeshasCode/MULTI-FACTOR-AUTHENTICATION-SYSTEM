@@ -12,7 +12,6 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
 - **Lip Sync Verification** to ensure the speaker matches the lip movement
 - **AI-powered biometric security** with anti-spoofing
 - **Local data storage** (Cloud integration planned)
-- **PyQt5 GUI** for an intuitive user interface
 
 ---
 
@@ -22,7 +21,6 @@ A robust **AI-powered Multi-Factor Authentication (MFA)** system that combines *
 |-------------------|------------------------------------------------------------------------------------|
 | **Language**       | Python                                                                             |
 | **Libraries**      | `OpenCV`, `face-recognition`, `whisper`, `fuzzywuzzy`, `noisereduce`, `mediapipe`, `sounddevice`, `soundfile` |
-| **GUI**            | PyQt5                                                                              |
 | **Storage**        | Local directory-based storage (planning migration to cloud)                       |
 | **AI/ML/DL**       | Used for face encoding, voice embedding, and dynamic lip movement verification    |
 
